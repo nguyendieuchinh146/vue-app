@@ -1,0 +1,38 @@
+.footer-banner {
+  background-image: url("../../../assets/images/footer_banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e1e2e5;
+}
+
+.footer_dark {
+  background-color: #1f262c;
+}
+
+.footer_dark .about-us-container {
+  padding-top: 40px;
+}
+
+.footer_dark .copyright {
+  color: #fff;
+}
+
+.footer-box {
+  border-top: 1px solid rgba(187, 215, 254, 0.15);
+  padding: 30px 0;
+}
+
+.footer-box .copyright {
+  margin-left: 30px;
+}
+
+.social_group_ic img {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .footer-box .copyright {
+    display: block;
+    margin: 10px 0 10px 0;
+  }
+}
